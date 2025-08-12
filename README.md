@@ -148,3 +148,28 @@ You can use it like
     }
 }
 ```
+## Functions, Variables, And Loops
+### Variables
+If you want to store data, use variables!\
+Variables can easily store information using the following code
+```json
+{
+    "program":{
+        "var":["cool", "1234"],
+        "say":{"getvar":"cool"}
+    }
+}
+```
+
+
+
+
+If you need to do a specific task, things might start getting repetitive
+```json
+{
+    "program":{
+        "say":"hello",
+        "log":"hello said"
+    }
+}
+```
